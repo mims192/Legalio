@@ -1,14 +1,14 @@
 import React from "react";
-import { Scale } from "lucide-react"; // optional icon
+import { Scale } from "lucide-react"; 
 function Footer() {
   return (
     <footer className="bg-gray-100 text-gray-700 pt-16 pb-8">
       <div className="max-w-6xl mx-auto px-6">
 
-        {/* Top Section */}
+      
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
 
-          {/* Column 1 - Brand */}
+
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Scale className="text-[#1f3352]" />
@@ -22,7 +22,7 @@ function Footer() {
             </p>
           </div>
 
-          {/* Column 2 - Practice Areas */}
+        
           <div>
             <h3 className="font-semibold text-lg mb-4 text-[#1f3352]">
               Practice Areas
@@ -35,7 +35,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Column 3 - For Lawyers */}
+     
           <div>
             <h3 className="font-semibold text-lg mb-4 text-[#1f3352]">
               For Lawyers
@@ -47,7 +47,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Column 4 - Contact */}
+          
           <div>
             <h3 className="font-semibold text-lg mb-4 text-[#1f3352]">
               Contact
@@ -58,7 +58,7 @@ function Footer() {
 
         </div>
 
-        {/* Divider */}
+
         <div className="border-t border-gray-300 mt-12 pt-6 text-center text-sm text-gray-500">
           © 2026 Legalio. All rights reserved.
         </div>

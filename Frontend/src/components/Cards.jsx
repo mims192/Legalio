@@ -14,7 +14,6 @@ const Cards = ({ name, address, expertise = [], description, image }) => {
         <h1 className="text-xl font-semibold">{name}</h1>
         <p className="text-gray-500">{address}</p>
 
-        {/* Expertise */}
         <div className="flex  gap-2 mt-2">
           {expertise.map((item, index) => (
             <span

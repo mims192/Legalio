@@ -33,7 +33,6 @@ const SearchPage= () => {
   return (
     <div className="relative min-h-screen bg-gray-100">
 
-      {/* ================= HERO SECTION ================= */}
       <div className="bg-[#1F2E4A] text-white pt-16 pb-24 px-6 rounded-b-3xl">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl font-serif mb-8">
@@ -57,7 +56,6 @@ const SearchPage= () => {
         </div>
       </div>
 
-      {/* ================= LAWYER LIST ================= */}
       <div className="max-w-5xl mx-auto px-6 mt-16">
         <h2 className="text-2xl font-serif mb-6">4 Lawyers Found</h2>
         <div className="flex flex-wrap items-center flex-col md:flex-row gap-[10px]">
@@ -76,7 +74,7 @@ const SearchPage= () => {
         </div>
       </div>
 
-      {/* ================= OVERLAY ================= */}
+      {/*OVERLAY */}
       {isOpen && (
         <div
           onClick={() => setIsOpen(false)}
@@ -84,7 +82,6 @@ const SearchPage= () => {
         />
       )}
 
-      {/* ================= SIDEBAR ================= */}
       <div
         className={`fixed top-0 right-0 h-full w-80 bg-white shadow-xl z-50 transform transition-transform duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"
           }`}

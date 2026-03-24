@@ -5,7 +5,6 @@ const LawyerRegistration = () => {
     <div className="min-h-screen bg-gray-100 py-12 px-4">
       <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
         
-        {/* Header */}
         <div className="bg-[#1F2E4A] text-white px-8 py-8">
           <h1 className="text-3xl font-semibold">Lawyer Registration</h1>
           <p className="mt-2 text-gray-200">
@@ -15,7 +14,6 @@ const LawyerRegistration = () => {
 
         <div className="px-8 py-8">
 
-          {/* ================= Personal Info ================= */}
           <h2 className="text-lg font-semibold border-b pb-2 mb-6">
             Personal Information
           </h2>
@@ -66,7 +64,6 @@ const LawyerRegistration = () => {
             </div>
           </div>
 
-          {/* ================= Professional Details ================= */}
           <h2 className="text-lg font-semibold border-b pb-2 mt-10 mb-6">
             Professional Details
           </h2>
@@ -97,7 +94,6 @@ const LawyerRegistration = () => {
 
           </div>
 
-          {/* Practice Areas */}
           <div className="mt-6">
             <label className="block text-sm font-medium text-gray-700 mb-3">
               Practice Areas
@@ -122,7 +118,7 @@ const LawyerRegistration = () => {
             </div>
           </div>
 
-          {/* Bio */}
+    
           <div className="mt-6">
             <label className="block text-sm font-medium text-gray-700">
               Professional Bio
@@ -134,7 +130,7 @@ const LawyerRegistration = () => {
             ></textarea>
           </div>
 
-          {/* Submit Button */}
+
           <div className="mt-8">
             <button className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 rounded-md transition duration-200">
               Submit Application
