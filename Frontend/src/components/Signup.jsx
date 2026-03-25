@@ -94,3 +94,13 @@ function Signup({onClose}) {
 }
 
 export default Signup;
+//res.data is the body of the response sent by your backend
+
+//{
+//  "user": {
+ //   "_id": "12345",
+ //   "name": "John",
+ //   "email": "john@example.com"
+ // },
+//  "token": "abcd1234"
+//}
